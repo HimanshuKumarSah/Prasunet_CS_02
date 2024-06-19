@@ -1,7 +1,7 @@
-print("This program will encrypt your image file and will replace the original file with the encrypted one.")
-print("Please make sure that the image file is in the same folder as this program.")
-print("The same key is used for encryption and decryption of the image file.")
-print("Enter the name of your image file")
+print("This program will encrypt your file and will replace the original file with the encrypted one.")
+print("Please make sure that the file is in the same folder as this program.")
+print("The same key is used for encryption and decryption of the file.")
+print("Enter the name of your file")
 
 #Taking the image name as the input.
 path = input("Name: ")
@@ -9,7 +9,7 @@ path = input("Name: ")
 #Taking the key as input
 key = input("Enter your key value here: ")
 
-print("Encrypting/Decryptiong the image...")
+print("Encrypting/Decryptiong the file...")
 
 #Opening the image file.
 file = open(path, "rb")
@@ -29,4 +29,4 @@ file.write(image)
 #Closing the file.
 file.close()
 
-print("Saving the image...")
+print("Saving the file...")
