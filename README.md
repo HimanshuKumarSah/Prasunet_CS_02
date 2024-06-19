@@ -6,7 +6,7 @@ This is the second task for the Prasunet Cyber Security Internship.
 <br>
 - After making sure you have Python Downloaded, open command prompt(Windows) or Terminal(Linux and MacOS)
 <br>
-- Make sure the image file that is to be encrypted is in the same folder as this program.
+- Make sure the file that is to be encrypted is in the same folder as this program.
 <br>
 Type the following
   
@@ -24,4 +24,5 @@ To decrypt the file, use the same key used to encrypt the file.
 ---
 This program uses the file operations of python and the bytearray conversion of files to manipulate the bytes into an encrypted format. 
 Although this can be broken by brute forcing the key, it is a simple program to provide the minimum safety to the important files.
-
+<br>
+This program has been tested with image files and pdfs, mp4 files, .xlsx files, .odt files
